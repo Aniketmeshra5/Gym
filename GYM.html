@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniket Fitness</title>
+    <link rel="stylesheet" href="projectharry.css">
+    <style>
+        /* CSS Reset */
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('abs-1850926_1280.jpg');
+            color: white;
+            /* box-sizing: border-box;
+            background-repeat: no-repeat; */
+            /* background: transparent; */
+            width: 100%;
+
+        }
+
+        .left {
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 20px;
+            top: 20px;
+        }
+
+        .left img {
+            width: 50px;
+            filter: invert(100%);
+            position: relative;
+            left: 40px;
+        }
+
+        .left div {
+            line-height: 19px;
+            font-size: 26px;
+            text-align: center;
+            text-shadow: 0 0 15px blue;
+        }
+
+        .mid {
+            width: 50%;
+            margin: 20px auto;
+            /* border: 2px solid rgb(0, 51, 255); */
+            /* position: relative;
+            left: 40px; */
+        }
+
+        .right {
+            position: absolute;
+            right: 80px;
+            top: 40px;
+            display: inline-block;
+            /* border: 2px solid rgb(255, 213, 0); */
+
+        }
+
+        .btn {
+            margin: 0px 4px;
+            background-color: black;
+            color: white;
+            padding: 3px 0px;
+            border-radius: 10px;
+            border: 2px solid gray;
+            font-size: 20px;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;
+
+        }
+
+        .btn:hover {
+            background-color: rgb(89, 89, 89);
+        }
+
+        .navbar {
+            display: inline-block;
+            padding: 0px;
+            text-align: center;
+
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 2px 23px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .container {
+
+            border: 2px solid #b8f4b8;
+            margin: 140px 534px;
+            padding: 17px 30px;
+            width: 33%;
+            border-radius: 50px;
+
+        }
+        .forrm-group input{
+            /* text-align: center;
+            display: block;
+            width: 34px;
+            border: 2px solid black;
+            margin: 3px auto;
+            padding: 6px; */
+            text-align: center;
+    display: block;
+    width: 300px;
+    border: 2px solid black;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 18px;
+        }
+        .container h1{
+            text-align: center;
+            text-shadow: 0 0 5px greenyellow;
+        }
+        .container button{
+            display: block;
+            width: 310px;
+margin: 20px auto;
+border-radius: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="dumbbell.png" alt="">
+            <Div>Aniket Fitness</Div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- Right box for button  -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>
+            Join the best gym of Nagpur now
+        </h1>
+        <form action="noaction.php">
+            <div class="forrm-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="forrm-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="forrm-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
